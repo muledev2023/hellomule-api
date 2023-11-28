@@ -27,7 +27,7 @@
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-maven-plugin</artifactId>
-				<version>${mule.maven.plugin.version}</version>
+				<version>3.9.2</version>
 				<extensions>true</extensions>
 				  <configuration>
 				    <cloudHubDeployment>
@@ -41,7 +41,7 @@
 				      <workerType>MICRO</workerType>
 				      <objectStoreV2>true</objectStoreV2>
 				      <properties>
-				        <key>value</key>
+				        <http.port>8081</http.port>
 				      </properties>
 				    </cloudHubDeployment>
 				  </configuration>
