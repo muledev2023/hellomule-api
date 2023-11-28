@@ -27,24 +27,24 @@
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-maven-plugin</artifactId>
-				<version>3.9.2</version>
+				<version>4.0.0</version>
 				<extensions>true</extensions>
-				  <configuration>
-				    <cloudHubDeployment>
-				      <uri>https://anypoint.mulesoft.com</uri>
-				      <muleVersion>4.5.1</muleVersion>
-				      <username>${anypoint.username}</username>
-				      <password>${anypoint.password}</password>
-				      <applicationName>hellomule-api</applicationName>
-				      <environment>Sandbox</environment>
-				      <workers>1</workers>
-				      <workerType>MICRO</workerType>
-				      <objectStoreV2>true</objectStoreV2>
-				      <properties>
-				        <http.port>8081</http.port>
-				      </properties>
-				    </cloudHubDeployment>
-				  </configuration>
+				<configuration>
+					<cloudHubDeployment>
+						<uri>https://anypoint.mulesoft.com</uri>
+						<muleVersion>4.5.1</muleVersion>
+						<username>${anypoint.username}</username>
+						<password>${anypoint.password}</password>
+						<applicationName>hellomule-api</applicationName>
+						<environment>Sandbox</environment>
+						<workers>1</workers>
+						<workerType>MICRO</workerType>
+						<objectStoreV2>true</objectStoreV2>
+						<properties>
+							<http.port>8081</http.port>
+						</properties>
+					</cloudHubDeployment>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
