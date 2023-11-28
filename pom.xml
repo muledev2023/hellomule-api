@@ -10,7 +10,7 @@
 
   <properties>
     <muleVersion>4.5.1</muleVersion>
-    <muleMavenPluginVersion>3.5.0</muleMavenPluginVersion>
+    <muleMavenPluginVersion>3.9.2</muleMavenPluginVersion>
     <anypoint.uri>https://anypoint.mulesoft.com</anypoint.uri>
     <username>${env.ANYPOINT_USERNAME}</username>
     <password>${env.ANYPOINT_PASSWORD}</password>
